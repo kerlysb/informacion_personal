@@ -1,4 +1,4 @@
- 1. Crear el diccionario con información personal
+ #1. Crear el diccionario con información personal
 informacion_personal = {
     "nombre": "Kerly Suárez",
     "edad": 32,
@@ -28,4 +28,8 @@ print()
 # 4. Eliminar la clave "edad"
 del informacion_personal["edad"]
 print("Se eliminó la clave 'edad' del diccionario")
+print()
+# 5. Imprimir el diccionario final
+print("Diccionario final:")
+print(informacion_personal)
 print()

@@ -18,3 +18,10 @@ print()
 # Nota: La clave "profesion" ya existe desde el inicio
 # Si no existiera, la agregaríamos así:
 # informacion_personal["profesion"] = "Estudiante de TIC"
+# 3. Verificar si existe la clave "telefono" y agregarla si no existe
+if "telefono" not in informacion_personal:
+    informacion_personal["telefono"] = "+593 989 637829"
+    print("Se agregó el teléfono al diccionario")
+else:
+    print("El teléfono ya existe en el diccionario")
+print()

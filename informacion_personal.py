@@ -25,3 +25,7 @@ if "telefono" not in informacion_personal:
 else:
     print("El teléfono ya existe en el diccionario")
 print()
+# 4. Eliminar la clave "edad"
+del informacion_personal["edad"]
+print("Se eliminó la clave 'edad' del diccionario")
+print()
